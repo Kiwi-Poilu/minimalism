@@ -1,3 +1,67 @@
-h1 {
-  color: red;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'sora';
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: #FAFAF9;
+}
+
+.card {
+	box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.15);
+	width: 368px;
+	background-color: #FFFFFF;
+	border-color: white;
+	border-width: 0;
+	border-radius: 12px;
+}
+
+.upper {
+	padding: 16px 16px 20px 16px;
+}
+
+.img {
+	width: 100%;
+	border-radius: 12px;	
+}
+
+.tag {
+	width: fit-content;
+	color: #883AE1;
+	background-color: #E6D6FC;
+	border-radius: 16px;
+	padding: 6px 16px;
+	margin: 16px 0px;
+	font-size: 0.625rem;
+	font-weight: 600;
+}
+
+.title {
+	font-size: 1.125rem;
+	color: #20293A;
+	margin-bottom: 6px;
+	font-weight: 550;
+}
+
+.text {
+	font-size: 0.875rem;
+	line-height: 1.5;
+	color: #6C727F;
+	font-weight: 300;
+}
+
+.line {
+	border: 1px solid #E5EAF0;
+}
+
+.signature {
+	font-size: 0.75rem;
+	color: #6C727F;
+	margin: 20px 16px 20px 16px;
 }
